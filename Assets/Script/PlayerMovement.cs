@@ -6,10 +6,10 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
-    public float moveSpeed;
-    public float dashSpeed;
-    public float dashDuration;
-    public float dashCd;
+    public float moveSpeed = 5f;
+    public float dashSpeed = 25f;
+    public float dashDuration = 0.1f;
+    public float dashCd = 1f;
     bool isDash;
     bool canDash;
     Vector2 moveDirection;
